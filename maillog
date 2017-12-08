@@ -1,0 +1,402 @@
+Dec 11 10:44:45 localhost sendmail[3173]: alias database /etc/aliases rebuilt by root
+Dec 11 10:44:45 localhost sendmail[3173]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+Dec 11 10:44:45 localhost sendmail[3178]: starting daemon (8.13.8): SMTP+queueing@01:00:00
+Dec 11 10:44:45 localhost sm-msp-queue[3187]: starting daemon (8.13.8): queueing@01:00:00
+Dec 11 11:49:47 localhost sendmail[7093]: vACJnlbV007093: from=root, size=986, class=0, nrcpts=1, msgid=<201711131949.vACJnlbV007093@localhost.localdomain>, relay=root@localhost
+Dec 11 11:49:47 localhost sendmail[7095]: vACJnlu6007095: from=<root@localhost.localdomain>, size=1366, class=0, nrcpts=1, msgid=<201711131949.vACJnlbV007093@localhost.localdomain>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [192.168.14.100]
+Dec 11 11:49:47 localhost sendmail[7093]: vACJnlbV007093: to=root, ctladdr=root (0/0), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=30986, relay=[192.168.14.100] [192.168.14.100], dsn=2.0.0, stat=Sent (vACJnlu6007095 Message accepted for delivery)
+Dec 11 11:49:47 localhost sendmail[7096]: vACJnlu6007095: to=<root@localhost.localdomain>, ctladdr=<root@localhost.localdomain> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31500, dsn=2.0.0, stat=Sent
+Dec 11 04:02:02 localhost sendmail[17072]: vAEC09ib017072: from=root, size=986, class=0, nrcpts=1, msgid=<201711141302.vAEC09ib017072@localhost.localdomain>, relay=root@localhost
+Dec 11 04:02:02 localhost sendmail[17074]: vAEC09nT017074: from=<root@localhost.localdomain>, size=1366, class=0, nrcpts=1, msgid=<201711141302.vAEC09ib017072@localhost.localdomain>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [192.168.14.100]
+Dec 11 04:02:02 localhost sendmail[17072]: vAEC09ib017072: to=root, ctladdr=root (0/0), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=30986, relay=[192.168.14.100] [192.168.14.100], dsn=2.0.0, stat=Sent (vAEC09nT017074 Message accepted for delivery)
+Dec 11 04:02:02 localhost sendmail[17075]: vAEC09nT017074: to=<root@localhost.localdomain>, ctladdr=<root@localhost.localdomain> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31500, dsn=2.0.0, stat=Sent
+Dec 11 08:15:09 localhost sendmail[3835]: alias database /etc/aliases rebuilt by root
+Dec 11 08:15:09 localhost sendmail[3835]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+Dec 11 08:15:09 localhost sendmail[3840]: starting daemon (8.13.8): SMTP+queueing@01:00:00
+Dec 11 08:15:09 localhost sm-msp-queue[3849]: starting daemon (8.13.8): queueing@01:00:00
+Dec 11 08:16:55 localhost sendmail[3929]: alias database /etc/aliases rebuilt by root
+Dec 11 08:16:55 localhost sendmail[3929]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+Dec 11 08:17:55 localhost sendmail[3934]: starting daemon (8.13.8): SMTP+queueing@01:00:00
+Dec 11 08:17:56 localhost sm-msp-queue[3933]: starting daemon (8.13.8): queueing@01:00:00
+Dec 11 08:32:55 localhost sendmail[13660]: alias database /etc/aliases rebuilt by root
+Dec 11 08:32:55 localhost sendmail[13660]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+Dec 11 08:32:56 localhost postfix/postfix-script: starting the Postfix mail system
+Dec 11 08:32:56 localhost postfix/master[13706]: fatal: bind 192.168.14.100 port 25: Address already in use
+Dec 11 08:33:42 localhost postfix/postfix-script: fatal: the Postfix mail system is not running
+Dec 11 08:33:42 localhost sendmail[13813]: alias database /etc/aliases rebuilt by root
+Dec 11 08:33:42 localhost sendmail[13813]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+Dec 11 08:33:42 localhost postfix/postfix-script: starting the Postfix mail system
+Dec 11 08:33:42 localhost postfix/master[13858]: fatal: bind 0.0.0.0 port 25: Address already in use
+Dec 11 08:35:06 localhost postfix/postfix-script: fatal: the Postfix mail system is not running
+Dec 11 08:36:52 localhost postfix/postfix-script: fatal: the Postfix mail system is not running
+Dec 11 08:36:52 localhost sendmail[13973]: alias database /etc/aliases rebuilt by root
+Dec 11 08:36:52 localhost sendmail[13973]: /etc/aliases: 77 aliases, longest 18 bytes, 786 bytes total
+Dec 11 08:36:56 localhost postfix/postfix-script: starting the Postfix mail system
+Dec 11 08:36:56 localhost postfix/master[13019]: daemon started -- version 2.3.3, configuration /etc/postfix
+Dec 11 08:54:01 localhost postfix/postfix-script: stopping the Postfix mail system
+Dec 11 08:54:01 localhost postfix/master[13019]: terminating on signal 15
+Dec 11 08:54:01 localhost sendmail[13036]: alias database /etc/aliases rebuilt by root
+Dec 11 08:54:01 localhost sendmail[13036]: /etc/aliases: 77 aliases, longest 18 bytes, 786 bytes total
+Dec 11 08:54:02 localhost postfix/postfix-script: starting the Postfix mail system
+Dec 11 08:54:02 localhost postfix/master[13082]: daemon started -- version 2.3.3, configuration /etc/postfix
+Dec 11 08:54:48 localhost postfix/postfix-script: refreshing the Postfix mail system
+Dec 11 08:54:48 localhost postfix/master[13082]: reload configuration /etc/postfix
+Dec 11 08:55:09 localhost postfix/smtpd[13099]: connect from ftp.example.com[192.168.14.1]
+Dec 11 08:56:42 localhost postfix/smtpd[13099]: disconnect from ftp.example.com[192.168.14.1]
+Dec 11 08:58:32 localhost master[13249]: process started
+Dec 11 08:58:32 localhost master[13251]: about to exec /usr/lib/cyrus-imapd/ctl_cyrusdb
+Dec 11 08:58:32 localhost ctl_cyrusdb[13251]: recovering cyrus databases
+Dec 11 08:58:32 localhost ctl_cyrusdb[13251]: done recovering cyrus databases
+Dec 11 08:58:32 localhost master[13252]: about to exec /usr/lib/cyrus-imapd/idled
+Dec 11 08:58:32 localhost master[13249]: ready for work
+Dec 11 08:58:32 localhost master[13254]: about to exec /usr/lib/cyrus-imapd/ctl_cyrusdb
+Dec 11 08:58:32 localhost master[13255]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:32 localhost master[13256]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:32 localhost imaps[13256]: executed
+Dec 11 08:58:32 localhost master[13257]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:32 localhost pop3[13257]: executed
+Dec 11 08:58:32 localhost master[13258]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:32 localhost pop3s[13258]: executed
+Dec 11 08:58:32 localhost master[13259]: about to exec /usr/lib/cyrus-imapd/lmtpd
+Dec 11 08:58:32 localhost lmtpunix[13259]: executed
+Dec 11 08:58:32 localhost master[13260]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:32 localhost master[13261]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:32 localhost imaps[13261]: executed
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: checkpointing cyrus databases
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: DBERROR: error listing log files: DB_NOTFOUND: No matching key/data pair found
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: DBERROR: archive /var/lib/imap/db: cyrusdb error
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: DBERROR: error listing log files: DB_NOTFOUND: No matching key/data pair found
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: DBERROR: archive /var/lib/imap/db: cyrusdb error
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: archiving database file: /var/lib/imap/annotations.db
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: archiving database file: /var/lib/imap/mailboxes.db
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: DBERROR: error listing log files: DB_NOTFOUND: No matching key/data pair found
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: DBERROR: archive /var/lib/imap/db: cyrusdb error
+Dec 11 08:58:32 localhost ctl_cyrusdb[13254]: done checkpointing cyrus databases
+Dec 11 08:58:32 localhost imap[13255]: executed
+Dec 11 08:58:32 localhost imap[13260]: executed
+Dec 11 08:58:32 localhost master[13262]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:32 localhost master[13263]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:32 localhost pop3s[13263]: executed
+Dec 11 08:58:32 localhost pop3[13262]: executed
+Dec 11 08:58:34 localhost master[13264]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13264]: executed
+Dec 11 08:58:34 localhost master[13265]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13265]: executed
+Dec 11 08:58:34 localhost master[13266]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13266]: executed
+Dec 11 08:58:34 localhost master[13267]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13267]: executed
+Dec 11 08:58:34 localhost master[13268]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:34 localhost master[13270]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13270]: executed
+Dec 11 08:58:34 localhost master[13271]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13271]: executed
+Dec 11 08:58:34 localhost master[13272]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13272]: executed
+Dec 11 08:58:34 localhost master[13273]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 08:58:34 localhost imap[13273]: executed
+Dec 11 08:58:34 localhost master[13274]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:34 localhost pop3[13274]: executed
+Dec 11 08:58:34 localhost master[13275]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:34 localhost master[13249]: process 13254 exited, status 1
+Dec 11 08:58:34 localhost pop3[13268]: executed
+Dec 11 08:58:34 localhost master[13269]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 08:58:34 localhost pop3[13269]: executed
+Dec 11 08:58:34 localhost pop3[13275]: executed
+Dec 11 09:01:56 localhost master[13301]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:01:56 localhost imap[13301]: executed
+Dec 11 09:01:56 localhost imap[13260]: accepted connection
+Dec 11 09:02:03 localhost imap[13260]: badlogin: localhost.localdomain [192.168.14.100] plaintext cyrus SASL(-13): authentication failure: checkpass failed
+Dec 11 09:02:36 localhost imap[13270]: accepted connection
+Dec 11 09:02:39 localhost imap[13270]: badlogin: localhost.localdomain [192.168.14.100] plaintext cyrus SASL(-13): authentication failure: checkpass failed
+Dec 11 09:03:06 localhost master[13249]: process 13260 exited, status 0
+Dec 11 09:03:42 localhost master[13249]: process 13270 exited, status 0
+Dec 11 09:03:42 localhost master[13357]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:03:42 localhost imap[13357]: executed
+Dec 11 09:06:14 localhost sendmail[13374]: alias database /etc/aliases rebuilt by root
+Dec 11 09:06:14 localhost sendmail[13374]: /etc/aliases: 77 aliases, longest 18 bytes, 786 bytes total
+Dec 11 09:06:14 localhost postfix/postfix-script: fatal: the Postfix mail system is already running
+Dec 11 09:06:20 localhost postfix/postfix-script: stopping the Postfix mail system
+Dec 11 09:06:20 localhost postfix/master[13082]: terminating on signal 15
+Dec 11 09:06:20 localhost sendmail[13392]: alias database /etc/aliases rebuilt by root
+Dec 11 09:06:20 localhost sendmail[13392]: /etc/aliases: 77 aliases, longest 18 bytes, 786 bytes total
+Dec 11 09:06:20 localhost postfix/postfix-script: starting the Postfix mail system
+Dec 11 09:06:20 localhost postfix/master[13338]: daemon started -- version 2.3.3, configuration /etc/postfix
+Dec 11 09:06:51 localhost postfix/postfix-script: stopping the Postfix mail system
+Dec 11 09:06:51 localhost postfix/master[13338]: terminating on signal 15
+Dec 11 09:06:51 localhost sendmail[13470]: alias database /etc/aliases rebuilt by root
+Dec 11 09:06:51 localhost sendmail[13470]: /etc/aliases: 77 aliases, longest 18 bytes, 786 bytes total
+Dec 11 09:06:51 localhost postfix/postfix-script: starting the Postfix mail system
+Dec 11 09:06:51 localhost postfix/master[13516]: daemon started -- version 2.3.3, configuration /etc/postfix
+Dec 11 09:13:16 localhost postfix/postfix-script: refreshing the Postfix mail system
+Dec 11 09:13:16 localhost postfix/master[13516]: reload configuration /etc/postfix
+Dec 11 09:13:34 localhost postfix/smtpd[13600]: connect from ftp.example.com[192.168.14.1]
+Dec 11 09:13:36 localhost postfix/smtpd[13600]: disconnect from ftp.example.com[192.168.14.1]
+Dec 11 09:13:17 localhost master[13249]: exiting on SIGTERM/SIGINT
+Dec 11 09:13:19 localhost master[13810]: process started
+Dec 11 09:13:19 localhost master[13813]: about to exec /usr/lib/cyrus-imapd/ctl_cyrusdb
+Dec 11 09:13:19 localhost ctl_cyrusdb[13813]: recovering cyrus databases
+Dec 11 09:13:19 localhost ctl_cyrusdb[13813]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Dec 11 09:13:19 localhost ctl_cyrusdb[13813]: skiplist: recovered /var/lib/imap/annotations.db (0 records, 144 bytes) in 0 seconds
+Dec 11 09:13:19 localhost ctl_cyrusdb[13813]: done recovering cyrus databases
+Dec 11 09:13:19 localhost master[13813]: about to exec /usr/lib/cyrus-imapd/idled
+Dec 11 09:13:19 localhost master[13810]: ready for work
+Dec 11 09:13:19 localhost master[13815]: about to exec /usr/lib/cyrus-imapd/ctl_cyrusdb
+Dec 11 09:13:19 localhost ctl_cyrusdb[13815]: checkpointing cyrus databases
+Dec 11 09:13:19 localhost master[13816]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:19 localhost imap[13816]: executed
+Dec 11 09:13:19 localhost master[13817]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:19 localhost imaps[13817]: executed
+Dec 11 09:13:19 localhost master[13818]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:19 localhost pop3[13818]: executed
+Dec 11 09:13:19 localhost master[13819]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:19 localhost pop3s[13819]: executed
+Dec 11 09:13:19 localhost master[13820]: about to exec /usr/lib/cyrus-imapd/lmtpd
+Dec 11 09:13:19 localhost ctl_cyrusdb[13815]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:13:19 localhost ctl_cyrusdb[13815]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:13:19 localhost ctl_cyrusdb[13815]: archiving database file: /var/lib/imap/annotations.db
+Dec 11 09:13:19 localhost ctl_cyrusdb[13815]: archiving database file: /var/lib/imap/mailboxes.db
+Dec 11 09:13:19 localhost ctl_cyrusdb[13815]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:13:19 localhost ctl_cyrusdb[13815]: done checkpointing cyrus databases
+Dec 11 09:13:19 localhost lmtpunix[13820]: executed
+Dec 11 09:13:19 localhost master[13809]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:19 localhost imaps[13809]: executed
+Dec 11 09:13:19 localhost master[13809]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:19 localhost pop3[13809]: executed
+Dec 11 09:13:19 localhost master[13824]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:19 localhost pop3s[13824]: executed
+Dec 11 09:13:19 localhost master[13808]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:19 localhost imap[13808]: executed
+Dec 11 09:13:08 localhost master[13825]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost imap[13825]: executed
+Dec 11 09:13:08 localhost master[13826]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost imap[13826]: executed
+Dec 11 09:13:08 localhost master[13828]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost imap[13828]: executed
+Dec 11 09:13:08 localhost master[13829]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:08 localhost pop3[13829]: executed
+Dec 11 09:13:08 localhost master[13830]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:08 localhost pop3[13830]: executed
+Dec 11 09:13:08 localhost master[13831]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost master[13832]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost master[13827]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost imap[13827]: executed
+Dec 11 09:13:08 localhost imap[13831]: executed
+Dec 11 09:13:08 localhost imap[13832]: executed
+Dec 11 09:13:08 localhost master[13833]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost imap[13833]: executed
+Dec 11 09:13:08 localhost master[13835]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:08 localhost pop3[13835]: executed
+Dec 11 09:13:08 localhost master[13836]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:13:08 localhost pop3[13836]: executed
+Dec 11 09:13:08 localhost master[13810]: process 13815 exited, status 0
+Dec 11 09:13:08 localhost master[13834]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:13:08 localhost imap[13834]: executed
+Dec 11 09:15:36 localhost imap[13808]: accepted connection
+Dec 11 09:15:36 localhost master[13873]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:15:36 localhost imap[13873]: executed
+Dec 11 09:15:40 localhost imap[13808]: badlogin: localhost.localdomain [192.168.14.100] plaintext cyrus SASL(-13): authentication failure: checkpass failed
+Dec 11 09:16:33 localhost master[13810]: process 13808 exited, status 0
+Dec 11 09:37:01 localhost postfix/smtpd[13971]: connect from mail3.example.com[192.168.14.1]
+Dec 11 09:37:50 localhost postfix/smtpd[13971]: disconnect from mail3.example.com[192.168.14.1]
+Dec 11 09:39:36 localhost postfix/postfix-script: refreshing the Postfix mail system
+Dec 11 09:39:36 localhost postfix/master[13516]: reload configuration /etc/postfix
+Dec 11 09:39:47 localhost postfix/smtpd[13989]: connect from mail1.example.com[192.168.14.1]
+Dec 11 09:39:58 localhost postfix/smtpd[13989]: disconnect from mail1.example.com[192.168.14.1]
+Dec 11 09:40:09 localhost master[13810]: exiting on SIGTERM/SIGINT
+Dec 11 09:40:25 localhost master[14201]: process started
+Dec 11 09:40:25 localhost master[14203]: about to exec /usr/lib/cyrus-imapd/ctl_cyrusdb
+Dec 11 09:40:25 localhost ctl_cyrusdb[14203]: recovering cyrus databases
+Dec 11 09:40:25 localhost ctl_cyrusdb[14203]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Dec 11 09:40:25 localhost ctl_cyrusdb[14203]: skiplist: recovered /var/lib/imap/annotations.db (0 records, 144 bytes) in 0 seconds
+Dec 11 09:40:25 localhost ctl_cyrusdb[14203]: done recovering cyrus databases
+Dec 11 09:40:25 localhost master[14204]: about to exec /usr/lib/cyrus-imapd/idled
+Dec 11 09:40:25 localhost master[14201]: ready for work
+Dec 11 09:40:25 localhost master[14206]: about to exec /usr/lib/cyrus-imapd/ctl_cyrusdb
+Dec 11 09:40:25 localhost ctl_cyrusdb[14206]: checkpointing cyrus databases
+Dec 11 09:40:25 localhost master[14207]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:25 localhost imap[14207]: executed
+Dec 11 09:40:25 localhost master[14208]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:25 localhost imaps[14208]: executed
+Dec 11 09:40:25 localhost master[14209]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:25 localhost pop3[14209]: executed
+Dec 11 09:40:25 localhost master[14080]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:25 localhost pop3s[14080]: executed
+Dec 11 09:40:25 localhost ctl_cyrusdb[14206]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:40:25 localhost ctl_cyrusdb[14206]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:40:25 localhost ctl_cyrusdb[14206]: archiving database file: /var/lib/imap/annotations.db
+Dec 11 09:40:25 localhost ctl_cyrusdb[14206]: archiving database file: /var/lib/imap/mailboxes.db
+Dec 11 09:40:25 localhost ctl_cyrusdb[14206]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:40:25 localhost ctl_cyrusdb[14206]: done checkpointing cyrus databases
+Dec 11 09:40:25 localhost master[14081]: about to exec /usr/lib/cyrus-imapd/lmtpd
+Dec 11 09:40:25 localhost lmtpunix[14081]: executed
+Dec 11 09:40:25 localhost master[14083]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:25 localhost master[14083]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:25 localhost imaps[14083]: executed
+Dec 11 09:40:25 localhost master[14084]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:25 localhost pop3[14084]: executed
+Dec 11 09:40:25 localhost master[14085]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:25 localhost pop3s[14085]: executed
+Dec 11 09:40:25 localhost imap[14083]: executed
+Dec 11 09:40:27 localhost master[14086]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost imap[14086]: executed
+Dec 11 09:40:27 localhost master[14087]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost master[14088]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost imap[14087]: executed
+Dec 11 09:40:27 localhost master[14089]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost master[14090]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:27 localhost pop3[14090]: executed
+Dec 11 09:40:27 localhost master[14208]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:27 localhost pop3[14208]: executed
+Dec 11 09:40:27 localhost master[14092]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost imap[14092]: executed
+Dec 11 09:40:27 localhost master[14093]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost imap[14093]: executed
+Dec 11 09:40:27 localhost master[14094]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost imap[14094]: executed
+Dec 11 09:40:27 localhost master[14095]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:40:27 localhost imap[14088]: executed
+Dec 11 09:40:27 localhost imap[14089]: executed
+Dec 11 09:40:27 localhost imap[14095]: executed
+Dec 11 09:40:27 localhost master[14097]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:27 localhost pop3[14097]: executed
+Dec 11 09:40:27 localhost master[14201]: process 14206 exited, status 0
+Dec 11 09:40:27 localhost master[14096]: about to exec /usr/lib/cyrus-imapd/pop3d
+Dec 11 09:40:27 localhost pop3[14096]: executed
+Dec 11 09:44:25 localhost imap[14083]: accepted connection
+Dec 11 09:44:25 localhost master[14277]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:44:25 localhost imap[14277]: executed
+Dec 11 09:44:29 localhost imap[14083]: badlogin: localhost.localdomain [192.168.14.100] plaintext cyrus SASL(-13): authentication failure: checkpass failed
+Dec 11 09:45:14 localhost imap[14092]: accepted connection
+Dec 11 09:45:16 localhost imap[14092]: badlogin: localhost.localdomain [192.168.14.100] plaintext root SASL(-13): authentication failure: checkpass failed
+Dec 11 09:45:32 localhost master[14201]: process 14083 exited, status 0
+Dec 11 09:46:19 localhost master[14201]: process 14092 exited, status 0
+Dec 11 09:46:19 localhost master[14286]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:46:19 localhost imap[14286]: executed
+Dec 11 09:57:35 localhost imap[14093]: accepted connection
+Dec 11 09:57:35 localhost master[14451]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:57:35 localhost imap[14451]: executed
+Dec 11 09:57:38 localhost imap[14093]: login: localhost.localdomain [192.168.14.100] cyrus plaintext User logged in
+Dec 11 09:59:59 localhost master[14201]: process 14093 exited, status 0
+Dec 11 09:10:25 localhost master[14478]: about to exec /usr/lib/cyrus-imapd/ctl_cyrusdb
+Dec 11 09:10:25 localhost ctl_cyrusdb[14478]: checkpointing cyrus databases
+Dec 11 09:10:25 localhost ctl_cyrusdb[14478]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:10:25 localhost ctl_cyrusdb[14478]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:10:25 localhost ctl_cyrusdb[14478]: archiving database file: /var/lib/imap/annotations.db
+Dec 11 09:10:25 localhost ctl_cyrusdb[14478]: archiving database file: /var/lib/imap/mailboxes.db
+Dec 11 09:10:25 localhost ctl_cyrusdb[14478]: archiving log file: /var/lib/imap/db/log.0000000001
+Dec 11 09:10:25 localhost ctl_cyrusdb[14478]: done checkpointing cyrus databases
+Dec 11 09:10:25 localhost master[14201]: process 14478 exited, status 0
+Dec 11 09:28:44 localhost imap[14094]: accepted connection
+Dec 11 09:28:44 localhost master[14609]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:28:44 localhost imap[14609]: executed
+Dec 11 09:28:44 localhost imap[14094]: login: localhost.localdomain [192.168.14.100] mary plaintext User logged in
+Dec 11 09:28:44 localhost imap[14095]: accepted connection
+Dec 11 09:28:44 localhost imap[14095]: login: localhost.localdomain [192.168.14.100] mary plaintext User logged in
+Dec 11 09:28:44 localhost imap[14277]: accepted connection
+Dec 11 09:28:44 localhost imap[14277]: login: localhost.localdomain [192.168.14.100] mary plaintext User logged in
+Dec 11 09:28:59 localhost imap[14286]: accepted connection
+Dec 11 09:28:59 localhost imap[14286]: login: localhost.localdomain [192.168.14.100] mary plaintext User logged in
+Dec 11 09:28:59 localhost imap[14451]: accepted connection
+Dec 11 09:28:59 localhost imap[14451]: login: localhost.localdomain [192.168.14.100] mary plaintext User logged in
+Dec 11 09:29:03 localhost imap[14094]: accepted connection
+Dec 11 09:29:03 localhost imap[14094]: login: localhost.localdomain [192.168.14.100] mary plaintext User logged in
+Dec 11 09:29:03 localhost imap[14609]: accepted connection
+Dec 11 09:29:03 localhost imap[14609]: login: localhost.localdomain [192.168.14.100] mary plaintext User logged in
+Dec 11 09:29:31 localhost imap[14095]: accepted connection
+Dec 11 09:29:31 localhost imap[14095]: login: localhost.localdomain [192.168.14.100] john plaintext User logged in
+Dec 11 09:29:32 localhost imap[14277]: accepted connection
+Dec 11 09:29:32 localhost imap[14277]: login: localhost.localdomain [192.168.14.100] john plaintext User logged in
+Dec 11 09:29:32 localhost imap[14277]: seen_db: user john opened /var/lib/imap/user/j/john.seen
+Dec 11 09:29:32 localhost imap[14277]: open: user john opened INBOX.Trash
+Dec 11 09:29:32 localhost imap[14286]: accepted connection
+Dec 11 09:29:32 localhost imap[14286]: login: localhost.localdomain [192.168.14.100] john plaintext User logged in
+Dec 11 09:29:32 localhost imap[14286]: seen_db: user john opened /var/lib/imap/user/j/john.seen
+Dec 11 09:29:32 localhost imap[14286]: open: user john opened INBOX
+Dec 11 09:29:32 localhost last message repeated 2 times
+Dec 11 09:29:59 localhost master[14201]: process 14451 exited, status 0
+Dec 11 09:30:03 localhost master[14201]: process 14094 exited, status 0
+Dec 11 09:30:03 localhost master[14613]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:30:03 localhost imap[14613]: executed
+Dec 11 09:30:03 localhost master[14201]: process 14609 exited, status 0
+Dec 11 09:30:03 localhost master[14613]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:30:03 localhost imap[14613]: executed
+Dec 11 09:30:31 localhost master[14201]: process 14095 exited, status 0
+Dec 11 09:30:31 localhost master[14616]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:30:31 localhost imap[14616]: executed
+Dec 11 09:30:32 localhost master[14201]: process 14277 exited, status 0
+Dec 11 09:30:32 localhost master[14617]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:30:32 localhost imap[14617]: executed
+Dec 11 09:30:32 localhost master[14201]: process 14286 exited, status 0
+Dec 11 09:30:32 localhost master[14618]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:30:32 localhost imap[14618]: executed
+Dec 11 09:30:39 localhost sendmail[14619]: vAR7UdJI014619: Authentication-Warning: dns.example.com: apache set sender to john@localhost using -f
+Dec 11 09:30:39 localhost sendmail[14619]: vAR7UdJI014619: from=john@localhost, size=540, class=0, nrcpts=2, msgid=<48814.192.168.14.1.1511767839.squirrel@192.168.14.1>, relay=apache@localhost
+Dec 11 09:30:39 localhost postfix/smtpd[14620]: connect from localhost.localdomain[192.168.14.100]
+Dec 11 09:30:40 localhost postfix/trivial-rewrite[14609]: warning: do not list domain example.com in BOTH mydestination and virtual_alias_domains
+Dec 11 09:30:40 localhost postfix/smtpd[14620]: 0D067097035: client=localhost.localdomain[192.168.14.100]
+Dec 11 09:30:40 localhost postfix/trivial-rewrite[14609]: warning: do not list domain example.com in BOTH mydestination and virtual_alias_domains
+Dec 11 09:30:40 localhost postfix/cleanup[14624]: 0D067097035: message-id=<48814.192.168.14.1.1511767839.squirrel@192.168.14.1>
+Dec 11 09:30:40 localhost sendmail[14619]: vAR7UdJI014619: to=john@example.com,all@example.com, ctladdr=john@localhost (502/502), delay=00:00:01, xdelay=00:00:01, mailer=relay, pri=60540, relay=[192.168.14.100] [192.168.14.100], dsn=2.0.0, stat=Sent (Ok: queued as 0D067097035)
+Dec 11 09:30:40 localhost postfix/qmgr[13986]: 0D067097035: from=<john@dns.example.com>, size=951, nrcpt=4 (queue active)
+Dec 11 09:30:40 localhost postfix/trivial-rewrite[14609]: warning: do not list domain example.com in BOTH mydestination and virtual_alias_domains
+Dec 11 09:30:40 localhost last message repeated 3 times
+Dec 11 09:30:40 localhost postfix/smtpd[14620]: disconnect from localhost.localdomain[192.168.14.100]
+Dec 11 09:30:40 localhost imap[14613]: accepted connection
+Dec 11 09:30:40 localhost imap[14613]: login: localhost.localdomain [192.168.14.100] john plaintext User logged in
+Dec 11 09:30:40 localhost imap[14613]: created stage directory /var/spool/imap/stage./
+Dec 11 09:30:40 localhost imap[14613]: seen_db: user john opened /var/lib/imap/user/j/john.seen
+Dec 11 09:30:40 localhost master[14632]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:30:40 localhost lmtpunix[14081]: accepted connection
+Dec 11 09:30:40 localhost lmtpunix[14081]: lmtp connection preauth'd as postman
+Dec 11 09:30:40 localhost lmtpunix[14081]: IOERROR: fstating sieve script /var/lib/imap/sieve/j/john/defaultbc: No such file or directory
+Dec 11 09:30:40 localhost lmtpunix[14081]: duplicate_check: <48814.192.168.14.1.1511767839.squirrel@192.168.14.1> user.john            0
+Dec 11 09:30:40 localhost lmtpunix[14081]: duplicate_check: <48814.192.168.14.1.1511767839.squirrel@192.168.14.1> user.john            0
+Dec 11 09:30:40 localhost lmtpunix[14081]: mystore: starting txn 0847483650
+Dec 11 09:30:40 localhost lmtpunix[14081]: mystore: committing txn 0847483650
+Dec 11 09:30:40 localhost lmtpunix[14081]: duplicate_mark: <48814.192.168.14.1.1511767839.squirrel@192.168.14.1> user.john            1511767840 3084810613
+Dec 11 09:30:40 localhost imap[14613]: accepted connection
+Dec 11 09:30:40 localhost imap[14613]: login: localhost.localdomain [192.168.14.100] john plaintext User logged in
+Dec 11 09:30:40 localhost imap[14613]: seen_db: user john opened /var/lib/imap/user/j/john.seen
+Dec 11 09:30:40 localhost imap[14613]: open: user john opened INBOX
+Dec 11 09:30:40 localhost master[14634]: about to exec /usr/lib/cyrus-imapd/lmtpd
+Dec 11 09:30:40 localhost lmtpunix[14081]: Delivered: <48814.192.168.14.1.1511767839.squirrel@192.168.14.1> to mailbox: user.john
+Dec 11 09:30:40 localhost postfix/lmtp[14626]: 0D067097035: to=<john@example.com>, relay=dns.example.com[/var/lib/imap/socket/lmtp], delay=0.58, delays=0.07/0.19/0.14/0.18, dsn=2.1.5, status=sent (250 2.1.5 Ok)
+Dec 11 09:30:40 localhost lmtpunix[14081]: accepted connection
+Dec 11 09:30:40 localhost lmtpunix[14081]: lmtp connection preauth'd as postman
+Dec 11 09:30:40 localhost lmtpunix[14081]: verify_user(user.linux) failed: Mailbox does not exist
+Dec 11 09:30:40 localhost postfix/lmtp[14628]: 0D067097035: to=<linux@example.com>, orig_to=<all@example.com>, relay=dns.example.com[/var/lib/imap/socket/lmtp], delay=0.61, delays=0.07/0.09/0.29/0.03, dsn=5.1.1, status=bounced (host dns.example.com[/var/lib/imap/socket/lmtp] said: 550-Mailbox unknown.  Either there is no mailbox associated with this 550-name or you do not have authorization to see it. 550 5.1.1 User unknown (in reply to RCPT TO command))
+Dec 11 09:30:40 localhost lmtpunix[14081]: accepted connection
+Dec 11 09:30:40 localhost lmtpunix[14081]: lmtp connection preauth'd as postman
+Dec 11 09:30:40 localhost lmtpunix[14081]: verify_user(user.mary) failed: Mailbox does not exist
+Dec 11 09:30:40 localhost postfix/lmtp[14630]: 0D067097035: to=<mary@example.com>, orig_to=<all@example.com>, relay=dns.example.com[/var/lib/imap/socket/lmtp], delay=0.65, delays=0.07/0.27/0.27/0.03, dsn=5.1.1, status=bounced (host dns.example.com[/var/lib/imap/socket/lmtp] said: 550-Mailbox unknown.  Either there is no mailbox associated with this 550-name or you do not have authorization to see it. 550 5.1.1 User unknown (in reply to RCPT TO command))
+Dec 11 09:30:40 localhost lmtpunix[14081]: accepted connection
+Dec 11 09:30:40 localhost lmtpunix[14081]: lmtp connection preauth'd as postman
+Dec 11 09:30:40 localhost lmtpunix[14081]: verify_user(user.network) failed: Mailbox does not exist
+Dec 11 09:30:40 localhost imap[14632]: executed
+Dec 11 09:30:40 localhost postfix/lmtp[14633]: 0D067097035: to=<network@example.com>, orig_to=<all@example.com>, relay=dns.example.com[/var/lib/imap/socket/lmtp], delay=0.65, delays=0.07/0.35/0.09/0.01, dsn=5.1.1, status=bounced (host dns.example.com[/var/lib/imap/socket/lmtp] said: 550-Mailbox unknown.  Either there is no mailbox associated with this 550-name or you do not have authorization to see it. 550 5.1.1 User unknown (in reply to RCPT TO command))
+Dec 11 09:30:40 localhost postfix/cleanup[14624]: A695009703B: message-id=<20171137073040.A695009703B@dns.example.com>
+Dec 11 09:30:40 localhost postfix/qmgr[13986]: A695009703B: from=<>, size=4450, nrcpt=1 (queue active)
+Dec 11 09:30:40 localhost postfix/bounce[14635]: 0D067097035: sender non-delivery notification: A695009703B
+Dec 11 09:30:40 localhost postfix/qmgr[13986]: 0D067097035: removed
+Dec 11 09:30:40 localhost lmtpunix[14081]: accepted connection
+Dec 11 09:30:40 localhost lmtpunix[14081]: lmtp connection preauth'd as postman
+Dec 11 09:30:40 localhost lmtpunix[14081]: IOERROR: fstating sieve script /var/lib/imap/sieve/j/john/defaultbc: No such file or directory
+Dec 11 09:30:40 localhost lmtpunix[14081]: duplicate_check: <20171137073040.A695009703B@dns.example.com> user.john            0
+Dec 11 09:30:40 localhost imap[14613]: open: user john opened INBOX
+Dec 11 09:30:40 localhost lmtpunix[14081]: duplicate_check: <20171137073040.A695009703B@dns.example.com> user.john            0
+Dec 11 09:30:40 localhost lmtpunix[14081]: mystore: starting txn 0847483651
+Dec 11 09:30:40 localhost lmtpunix[14081]: mystore: committing txn 0847483651
+Dec 11 09:30:40 localhost lmtpunix[14081]: duplicate_mark: <20171137073040.A695009703B@dns.example.com> user.john            1511767840 1
+Dec 11 09:30:40 localhost imap[14613]: open: user john opened INBOX
+Dec 11 09:30:40 localhost lmtpunix[14634]: executed
+Dec 11 09:30:40 localhost lmtpunix[14081]: Delivered: <20171137073040.A695009703B@dns.example.com> to mailbox: user.john
+Dec 11 09:30:40 localhost postfix/lmtp[14626]: A695009703B: to=<john@dns.example.com>, relay=dns.example.com[/var/lib/imap/socket/lmtp], delay=0.02, delays=0/0/0/0.01, dsn=2.1.5, status=sent (250 2.1.5 Ok)
+Dec 11 09:30:40 localhost postfix/qmgr[13986]: A695009703B: removed
+Dec 11 09:30:40 localhost imap[14613]: SQUAT failed to open index file
+Dec 11 09:30:40 localhost imap[14613]: SQUAT failed
+Dec 11 09:31:40 localhost master[14201]: process 14613 exited, status 0
+Dec 11 09:31:40 localhost master[14201]: process 14081 exited, status 0
+Dec 11 09:31:40 localhost master[14201]: process 14613 exited, status 0
+Dec 11 09:31:40 localhost master[14639]: about to exec /usr/lib/cyrus-imapd/imapd
+Dec 11 09:31:40 localhost imap[14639]: executed
