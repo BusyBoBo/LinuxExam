@@ -1,0 +1,28 @@
+$ORIGIN .
+$TTL 36000	; 10 hours
+example.com		IN SOA	dns.example.com. admin.example.com. (
+				2005090529 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				36000      ; minimum (10 hours)
+				)
+			NS	dns.example.com.
+			MX	10 mail1.example.com.
+			MX	11 mail2.example.com.
+			MX	12 mail3.example.com.
+$ORIGIN example.com.
+bbs			CNAME	www
+dns			A	192.168.14.1
+ftp			A	192.168.14.1
+$TTL 10800	; 3 hours
+linux37			A	192.168.14.200
+			TXT	"008b6c2d51650d619e73da55f7addb7739"
+$TTL 36000	; 10 hours
+mail1			A	192.168.14.1
+mail2			A	192.168.14.1
+mail3			A	192.168.14.1
+samba			CNAME	www
+www			A	192.168.14.1
+abc IN A 192.168.14.203
+xyz IN A 192.168.14.203
