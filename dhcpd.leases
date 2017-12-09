@@ -1,0 +1,36 @@
+# All times in this file are in UTC (GMT), not your local timezone.   This is
+# not a bug, so please don't ask about it.   There is no portable way to
+# store leases in the local timezone, so please don't request this as a
+# feature.   If this is inconvenient or confusing to you, we sincerely
+# apologize.   Seriously, though - don't ask.
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-V3.0.5-RedHat
+
+lease 192.168.14.200 {
+  starts 6 2017/12/09 04:09:41;
+  ends 6 2017/12/09 10:09:41;
+  tstp 6 2017/12/09 10:09:41;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:0c:29:c0:69:3e;
+}
+lease 192.168.14.200 {
+  starts 6 2017/12/09 04:19:54;
+  ends 6 2017/12/09 10:19:54;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:0c:29:c0:69:3e;
+  set ddns-rev-name = "200.14.168.192.in-addr.arpa.";
+  set ddns-txt = "008b6c2d51650d619e73da55f7addb7739";
+  set ddns-fwd-name = "linux37.example.com";
+}
+lease 192.168.14.200 {
+  starts 6 2017/12/09 04:19:54;
+  ends 6 2017/12/09 10:19:54;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:0c:29:c0:69:3e;
+  set ddns-rev-name = "200.14.168.192.in-addr.arpa.";
+  set ddns-txt = "008b6c2d51650d619e73da55f7addb7739";
+  set ddns-fwd-name = "linux37.example.com";
+}
