@@ -1,0 +1,59 @@
+[2017/12/11 08:54:40, 0] smbd/server.c:main(944)
+  smbd version 3.0.33-3.14.el5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2008
+[2017/12/11 08:57:28, 0] smbd/server.c:main(944)
+  smbd version 3.0.33-3.14.el5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2008
+[2017/12/11 09:04:06, 0] smbd/server.c:main(944)
+  smbd version 3.0.33-3.14.el5 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2008
+[2017/12/11 09:04:29, 1] smbd/service.c:make_connection_snum(1033)
+  pc201709150752 (192.168.14.100) connect to service share initially as user mary (uid=501, gid=501) (pid 4968)
+[2017/12/11 09:04:45, 1] smbd/service.c:close_cnum(1230)
+  pc201709150752 (192.168.14.100) closed connection to service share
+[2017/12/11 20:04:45, 0] lib/util_sock.c:read_data(534)
+  read_data: read failure for 4 bytes to client 192.168.14.100. Error = Connection reset by peer
+[2017/12/11 09:04:52, 1] smbd/service.c:make_connection_snum(1033)
+  pc201709150752 (192.168.14.100) connect to service share initially as user john (uid=502, gid=502) (pid 4972)
+[2017/12/11 09:05:33, 1] smbd/service.c:close_cnum(1230)
+  pc201709150752 (192.168.14.100) closed connection to service share
+[2017/12/11 09:05:33, 0] lib/util_sock.c:read_data(534)
+  read_data: read failure for 4 bytes to client 192.168.14.100. Error = Connection reset by peer
+[2017/12/11 09:05:34, 1] smbd/service.c:make_connection_snum(1033)
+  pc201709150752 (192.168.14.100) connect to service share initially as user guest (uid=503, gid=503) (pid 4976)
+[2017/12/11 09:05:34, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:36, 0] smbd/service.c:set_current_service(184)
+  chdir (/home/share) failed
+[2017/12/11 09:05:51, 1] smbd/service.c:close_cnum(1230)
+  pc201709150752 (192.168.14.100) closed connection to service share
+[2017/12/11 09:05:51, 0] lib/util_sock.c:read_data(534)
+  read_data: read failure for 4 bytes to client 192.168.14.100. Error = Connection reset by peer
+[2017/12/11 09:05:53, 1] smbd/service.c:make_connection_snum(1033)
+  pc201709150752 (192.168.14.100) connect to service share initially as user mary (uid=501, gid=501) (pid 4980)
+[2017/12/11 09:06:37, 1] smbd/service.c:make_connection_snum(1033)
+  linux37 (192.168.14.1) connect to service share initially as user mary (uid=501, gid=501) (pid 4992)
+[2017/12/11 09:06:39, 1] smbd/service.c:close_cnum(1230)
+  linux37 (192.168.14.1) closed connection to service share
+[2017/12/11 09:06:58, 1] smbd/service.c:make_connection_snum(1033)
+  192.168.14.1 (192.168.14.1) connect to service share initially as user mary (uid=501, gid=501) (pid 5002)
+[2017/12/11 09:07:21, 1] smbd/service.c:close_cnum(1230)
+  192.168.14.1 (192.168.14.1) closed connection to service share
