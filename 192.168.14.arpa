@@ -1,0 +1,21 @@
+$ORIGIN .
+$TTL 36000	; 10 hours
+14.168.192.in-addr.arpa	IN SOA	dns.example.com. admin.example.com. (
+				2005090524 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				36000      ; minimum (10 hours)
+				)
+			NS	dns.example.com.
+$ORIGIN 14.168.192.in-addr.arpa.
+1			PTR	dns.example.com.
+			PTR	ftp.example.com.
+			PTR	www.example.com.
+			PTR	mail1.example.com.
+			PTR	mail2.example.com.
+			PTR	mail3.example.com.
+$TTL 10800	; 3 hours
+200			PTR	linux37.example.com.
+203 PTR abc.example.com.
+    PTR xyz.example.com.
